@@ -3,8 +3,11 @@
 Homebrew casks for [claudget](https://github.com/manankapoor23/claudget), which shows your Claude Code usage and plan limits in the menu bar.
 
 ```bash
+brew trust manankapoor23/tap
 brew install --cask manankapoor23/tap/claudget
 ```
+
+Homebrew 7 and later only load casks from third-party taps you've trusted, which is what the first line does. On an older Homebrew, skip it.
 
 Update with `brew upgrade --cask claudget`. Uninstall with `brew uninstall --cask claudget`, or use `brew uninstall --zap --cask claudget` to remove its settings and history too.
 
