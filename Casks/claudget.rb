@@ -1,9 +1,9 @@
 cask "claudget" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.3.5"
-  sha256 arm:   "a5fee3898832c2e4586714c41b3422ecfa340e1eeeb4033c5e07487f6d0c045e",
-         intel: "4646203efcb0feb5a9320819d6491eb8bb4ce7e5fae222496e526eecd3671c46"
+  version "0.3.6"
+  sha256 arm:   "d993b219c923146b4841392e793ba513484a9fc195be350ed0d0ece7ebc8f481",
+         intel: "e0bc6c41b9bd95645b39513cb53d6d05887d8f583ac46a68525582a76f02e71e"
 
   url "https://github.com/manankapoor23/claudget/releases/download/v#{version}/claudget-#{version}-#{arch}.dmg"
   name "claudget"
